@@ -6,10 +6,7 @@ namespace Fawry_Quantum_Internship_Challenge
 {
     using System;
 
-    /// <summary>
-    /// Hybrid engine: uses Electric below 50 km/h, Gas at 50+ km/h.
-    /// Cost-optimized — never runs both engines simultaneously.
-    /// </summary>
+    
     public class MixedHybridEngine : IEngine
     {
         private readonly GasolineEngine _gasolineEngine = new GasolineEngine();
